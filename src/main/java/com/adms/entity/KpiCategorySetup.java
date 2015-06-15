@@ -13,13 +13,13 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.adms.common.domain.BaseDomain;
+import com.adms.common.domain.BaseAuditDomain;
 
 @Entity
 @Table(name="KPI_CATEGORY_SETUP")
-public class KpiCategorySetup extends BaseDomain {
+public class KpiCategorySetup extends BaseAuditDomain {
 
-	private static final long serialVersionUID = -3081126943805309436L;
+	private static final long serialVersionUID = 1970933367109717410L;
 
 	@Id
 	@Column(name="ID")

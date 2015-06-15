@@ -16,8 +16,8 @@ import javax.persistence.TemporalType;
 import com.adms.common.domain.BaseDomain;
 
 @Entity
-@Table(name="TSR_HIRARCHY")
-public class TsrHirarchy extends BaseDomain {
+@Table(name="TSR_HIERARCHY")
+public class TsrHierarchy extends BaseDomain {
 
 	private static final long serialVersionUID = -3479527794880160757L;
 
@@ -96,7 +96,7 @@ public class TsrHirarchy extends BaseDomain {
 
 	@Override
 	public String toString() {
-		return "TsrHirarchy [id=" + id + ", campaign=" + campaign.getCampaignCode() + ", tsr="
+		return "TsrHierarchy [id=" + id + ", campaign=" + campaign.getCampaignCode() + ", tsr="
 				+ tsr.getTsrCode() + ", upline=" + upline.getTsrCode() + ", effectiveDate="
 				+ effectiveDate + ", endDate=" + endDate + "]";
 	}
